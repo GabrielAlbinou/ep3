@@ -32,15 +32,15 @@ main li{
 }
 .fundo3{
     background-image: url("https://images4.alphacoders.com/101/1011715.jpg");
-    background-position: left;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .fundo4{
-    background-image: url("https://images2.alphacoders.com/606/thumb-1920-606876.jpg");
+    background-image: url("https://images.alphacoders.com/592/592444.jpg");
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
 }
 
 
@@ -67,7 +67,7 @@ nav a{
   
   nav li {
     display: inline;
-    margin: auto;
+    margin: 15px 100px 15px 100px;
   }
   
   nav a:hover{
@@ -81,6 +81,18 @@ nav a{
 header{
     text-align: center;   /*essa tag serva para alinhar o texto*/
 padding: 10px;   /*é usado para o prenchimento ou uma melhor organização*/
-background-color:rgb(32, 29, 48,);   /*server para mudar a cor de fundo*/
-margin: -8px -8px 0px -8px;   /*permite definir o tamanho da margem de um elemento para outro*/
+
+
 }
+.logo{
+    width:100px;
+    border-radius: 50%;   /*serve para definir os raios dos cantos da borda então quanto maior mais redonda*/
+    transition: 2s;
+    justify-content: center;
+    }
+
+    div a :hover{
+        width: 120px;
+        border-radius: 50%;
+        transition: 2s;
+    }
